@@ -1,16 +1,23 @@
 {
-  "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.6817d394.js",
-    "static/js/787.37faa4c4.chunk.js": "/static/js/787.37faa4c4.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.6817d394.js.map": "/static/js/main.6817d394.js.map",
-    "787.37faa4c4.chunk.js.map": "/static/js/787.37faa4c4.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6817d394.js"
-  ]
+  "main.css": "/static/css/main.7ed18494.chunk.css",
+  "main.js": "/static/js/main.8ad3bf87.chunk.js",
+  "main.js.map": "/static/js/main.8ad3bf87.chunk.js.map",
+  "static/css/1.9e4b036f.chunk.css": "/static/css/1.9e4b036f.chunk.css",
+  "static/js/1.d2cc39fd.chunk.js": "/static/js/1.d2cc39fd.chunk.js",
+  "static/js/1.d2cc39fd.chunk.js.map": "/static/js/1.d2cc39fd.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/media/index.css": "/static/media/lato-latin-900italic.73d7130e.woff",
+  "static/media/pfp.jpg": "/static/media/pfp.279e4677.jpg",
+  "static/media/lockitt.png": "/static/media/lockitt.b6fc83c3.png",
+  "static/media/snake.png": "/static/media/snake.fdfa7f4c.png",
+  "static/media/envelope-regular.1a9020c3.svg": "/static/media/envelope-regular.1a9020c3.svg",
+  "static/media/linkedin-in-brands.1e01f0c0.svg": "/static/media/linkedin-in-brands.1e01f0c0.svg",
+  "static/media/Instagram.4e8b0667.svg": "/static/media/Instagram.4e8b0667.svg",
+  "static/media/github.1bb02710.svg": "/static/media/github.1bb02710.svg",
+  "static/css/main.7ed18494.chunk.css.map": "/static/css/main.7ed18494.chunk.css.map",
+  "static/css/1.9e4b036f.chunk.css.map": "/static/css/1.9e4b036f.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.cca541365e500bcc532e48ef84b60789.js": "/precache-manifest.cca541365e500bcc532e48ef84b60789.js",
+  "service-worker.js": "/service-worker.js"
 }
