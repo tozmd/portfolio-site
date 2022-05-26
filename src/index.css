@@ -1,13 +1,408 @@
+/* This CSS stylesheet is ordered by element > classes > IDs. */
+
+/* Formatting elements */
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  color: #2F323B;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+p {
+  font-weight: 400;
+  line-height: 1.4;
 }
+
+anim {
+  font-size: 600%;
+  font-weight: 400;
+  color:#2178db 
+}
+
+h1 {
+  font-size: 220%;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 160%;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 120%;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #8E9AAF;
+}
+
+strong {
+  font-weight: 600;
+  color:#2178db 
+}
+
+bold {
+  font-size: 160%;
+  font-weight: bold;
+}
+
+em {
+  color: #97989D;  
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+blockquote {
+  padding: 0;
+  margin: 48px 0;
+  font-weight: 600;
+  font-size: 125%;
+  color: #8E9AAF;
+}
+
+/* th, td {
+  padding-left: 10%;
+  padding-right: 10%;
+} */
+
+
+/* figcaption {
+  font-size: 90%;
+  font-style: italic;
+  color: #b0b0b0;
+  text-align: center;
+  padding: 20px 50px;
+} */
+
+/* main div div {
+  padding: 30px 0px;
+  margin: auto;
+} */
+
+/* p + h5 {
+  padding-top: 10px;
+} */
+
+
+footer h1 {
+  font-size: 160%;
+  font-weight: 500;
+}
+
+footer p {
+  font-size: 120%;
+}
+
+
+/* Formatting Classes */
+
+.lg-img {
+  width: 60vw;
+  height: auto;
+  padding-left: 10vw;
+}
+
+.med-img {
+  width: 100%;
+  height: auto;
+}
+
+.small-img {
+  width: 80%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.xs-img {
+  width: 200px;
+  height: auto;
+}
+
+
+h1.intro{
+  font-size: 260%;
+  font-weight: 400;
+  color:#FFFFFF
+}
+
+h2.intro{
+  font-size: 160%;
+  font-weight: 400;
+  color:#858689
+}
+
+h1.card{
+  font-size: 180%;
+  font-weight: 600;
+  /* padding-left: 1rem; */
+  color: black;
+}
+
+
+h2.card{
+  font-size: 140%;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.project h1 {
+  padding-top: 80px;
+}
+
+.project h2 {
+  color: #8E9AAF;
+  font-weight: 600;
+}
+
+h1.small-card{
+  font-size: 150%;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+.project strong {
+  font-weight: 800;
+}
+
+.large-text {
+  font-size: large;
+}
+
+.horizontal-list ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal-list li {
+  display: block;
+  list-style-type: none;
+  flex: 0 1 auto;
+}
+
+.horizontal-list p {
+  line-height: 0.5;
+}
+
+.vertical-list ul {
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.vertical-list li {
+  display: block;
+  list-style-type: none;
+  flex: 0 1 auto;
+  padding-bottom: 10px;
+}
+
+.vertical-list p {
+  line-height: 0.5;
+}
+
+.border {
+  border: 2px solid #C7C7C7;
+}
+
+.light-text {
+  color: #808080;
+  padding: 0;
+  margin-bottom: 4px;
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
+
+.no-bot-margin {
+  margin-bottom: 0;
+}
+
+
+
+/* Formatting IDs */
+
+#logo {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#nav-links {
+  text-align: right;
+  float: right;
+  padding: 10px 0px;
+}
+
+#nav-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+#nav-links li {
+  display: inline;
+}
+
+#nav-links li a {
+  font-size: 80%;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px;
+}
+
+#nav-links li a:hover {
+  font-weight: 600;
+  color:#2178db 
+}
+
+#social-icons a {
+  color: white;
+  margin-right: 24px;
+}
+
+#social-icons a:hover {
+  color:#2178db 
+}
+
+
+
+#numbered-list h1 {
+  padding: 0;
+  margin: 0;
+}
+
+#takeaways h1 {
+  margin: 0;
+  padding-top: 50px;
+}
+
+#other-project h1 {
+  font-size: 180%;
+}
+
+#info-icon {
+  padding: 4% 26%
+}
+
+#updates li {
+  line-height: 1.4;
+}
+
+
+
+
+/* Media queries */
+@media screen and (max-width: 480px) {
+  h1 {
+      font-size: 200%;
+  }
+
+  h2 {
+      font-size: 150%;
+  }
+
+  #home-overview p {
+      padding: 0px;
+      font-size: 120%;
+  }
+
+  figcaption {
+      font-size: 75%;
+      padding: 0%;
+  }
+
+
+  .small-img {
+      width: 100%;
+      max-width: 100%;
+      padding: 10px 0px;
+  }
+
+  #aboutme img, #aboutme p {
+      padding: 15px 0px;
+  }
+
+
+
+}
+
+/* Remove browser bordering */
+html, body { margin: 0; padding: 0; } 
+
+/* Hide scrollbar*/
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background:linear-gradient(to left top, #000000, #232323);
+  background-attachment: fixed; /*edit*/
+}
+
+
+/* 
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
