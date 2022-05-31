@@ -54,7 +54,6 @@ const ProjectCard = () => {
       <Grid container spacing={10} direction="row"
         justifyContent="flex-start" alignItems="baseline">
         {projectData.map((project) => (
-
         <Grid item xs={4}>
             <Card elevation={0} style={{borderRadius: 25}}>
             <CardActionArea href={project.link}>
@@ -92,7 +91,6 @@ const ProjectCard = () => {
         </Grid>
         </Fade>
         </div>
-
     );
 }
 export default ProjectCard;

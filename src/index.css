@@ -59,47 +59,6 @@ img {
   height: auto;
 }
 
-blockquote {
-  padding: 0;
-  margin: 48px 0;
-  font-weight: 600;
-  font-size: 125%;
-  color: #8E9AAF;
-}
-
-/* th, td {
-  padding-left: 10%;
-  padding-right: 10%;
-} */
-
-
-/* figcaption {
-  font-size: 90%;
-  font-style: italic;
-  color: #b0b0b0;
-  text-align: center;
-  padding: 20px 50px;
-} */
-
-/* main div div {
-  padding: 30px 0px;
-  margin: auto;
-} */
-
-/* p + h5 {
-  padding-top: 10px;
-} */
-
-
-footer h1 {
-  font-size: 160%;
-  font-weight: 500;
-}
-
-footer p {
-  font-size: 120%;
-}
-
 
 /* Formatting Classes */
 
@@ -114,7 +73,7 @@ footer p {
   height: auto;
 }
 
-.small-img {
+.intro-img {
   width: 80%;
   height: auto;
   border-radius: 25px;
@@ -233,9 +192,7 @@ h1.small-card{
 }
 
 
-
 /* Formatting IDs */
-
 #logo {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-size: 28px;
@@ -316,37 +273,17 @@ h1.small-card{
 
 /* Media queries */
 @media screen and (max-width: 480px) {
-  h1 {
-      font-size: 200%;
+  h1.intro{
+    font-size: 160%;
+    font-weight: 400;
+    color:#FFFFFF
   }
 
-  h2 {
-      font-size: 150%;
+  anim {
+    font-size: 400%;
+    font-weight: 400;
+    color:#2178db 
   }
-
-  #home-overview p {
-      padding: 0px;
-      font-size: 120%;
-  }
-
-  figcaption {
-      font-size: 75%;
-      padding: 0%;
-  }
-
-
-  .small-img {
-      width: 100%;
-      max-width: 100%;
-      padding: 10px 0px;
-  }
-
-  #aboutme img, #aboutme p {
-      padding: 15px 0px;
-  }
-
-
-
 }
 
 /* Remove browser bordering */
@@ -365,44 +302,21 @@ body {
   background-attachment: fixed; /*edit*/
 }
 
-
-/* 
-
-.App {
-  text-align: center;
+.horizontal-photos{
+  width:100%;
+  height:auto;
+  max-height:600px;
+  object-fit: contain;
+  overflow: hidden;
+  background-size: contain;
+  padding: 30px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.vertical-photos{
+  width:100%;
+  height:auto;
+  max-height:800px;
+  object-fit: contain;
+  overflow: hidden;
+  padding: 30px 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

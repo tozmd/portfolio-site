@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Reveal from 'react-reveal/Reveal';
 
 import Header from "../components/navbar";
 import Grid from '@mui/material/Grid';
@@ -50,11 +49,7 @@ class AboutMe extends Component {
 
       <div>
         <Header />
-      
-        <Reveal effect="fadeInUp">
-          <ProjectCard />
-        </Reveal>
-
+        <ProjectCard />
         <div style={{ height: 80 }} />
 
         <Grid container style={styles.mainContainer}>

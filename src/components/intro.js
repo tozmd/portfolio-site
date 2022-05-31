@@ -14,13 +14,8 @@ import PfPicture from "../assets/pfp.jpg";
 
 const styles = {
     heroContainer: {
-        // height: '40vw',
-        // height: 750,
         height: '100vh',
-        width: `99vw`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        margin: '0 -8px',
+        width: `100vw`,
     }
 };
 const Intro = () => {
@@ -31,25 +26,25 @@ const Intro = () => {
             style={styles.heroContainer} 
             top>
             <Container maxWidth="xl">
-                <Grid container item alignItems="center" sx={{ justifyContent: "flex", display: { xs: 'none', md: 'flex' } }}>
+                <Grid item container xs={12} alignItems="center">
                     <Grid item xs={7}>
 
                     <Fade bottom>
-                        <div style={{ width: '50em' }} >
+                        <div id="hello" >
                             <TypeAnimation cursor={true} sequence={[
-                                    'Hello.', 4000, 'Xin chào.', 4000 ,'Hola.', 4000]}
+                                    'Hello.', 4000, 'Xin chào.', 4000 ,'Hola.', 4000, 'Bonjour.', 4000, 'Ciao.', 4000, 'Olá.', 4000]}
                                     wrapper="anim"
                                     repeat={Infinity}/>
                         </div>
                     </Fade>
 
-                        <Fade bottom>
-                            <div>
-                                <h1 class="intro">My name is <strong>Brian Vu</strong> and I am an aspiring <strong>Android Developer</strong> with a passion for design.</h1>
-                            </div>                            
-                        </Fade>
+                    <Fade bottom>
+                        <div>
+                            <h1 class="intro">My name is <strong>Brian Vu</strong> and I am an aspiring <strong>Android Developer</strong> with a passion for design.</h1>
+                        </div>                            
+                    </Fade>
                         
-                        <Grid container alignItems="center" style={{margin: "6rem 0"}}>
+                    <Grid container alignItems="center">
                         <Fade bottom>
                         <div>
                         <h2 class="intro"> Find me at</h2>
@@ -98,7 +93,7 @@ const Intro = () => {
                     <Grid item xs ={5} align="right">
                         <Fade right>
                             <div>
-                                <img class="small-img" src={PfPicture} alt="Personal Portrait" />
+                                <img class="intro-img" src={PfPicture} alt="Personal Portrait" />
                             </div>                            
                         </Fade>
                     </Grid>
