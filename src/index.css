@@ -268,22 +268,69 @@ h1.small-card{
   line-height: 1.4;
 }
 
-
+.gallery {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 25px 25px 25px;
+}
 
 
 /* Media queries */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   h1.intro{
-    font-size: 160%;
+    font-size: 140%;
     font-weight: 400;
     color:#FFFFFF
   }
 
+  h2.intro{
+    font-size: 100%;
+    font-weight: 400;
+    color:#858689
+  }
+  
   anim {
     font-size: 400%;
     font-weight: 400;
     color:#2178db 
   }
+
+  .intro-img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+  }
+  
+}
+
+.container {
+  padding: 15px;
+}
+
+ul.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
+  grid-gap: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 50px];
+}
+
+ul.images > li {
+  position: relative;
+  padding-top: 66%;
+}
+
+ul.images > li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 /* Remove browser bordering */

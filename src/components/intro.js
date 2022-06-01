@@ -30,7 +30,7 @@ const Intro = () => {
                     <Grid item xs={7}>
 
                     <Fade bottom>
-                        <div id="hello" >
+                        <div>
                             <TypeAnimation cursor={true} sequence={[
                                     'Hello.', 4000, 'Xin chào.', 4000 ,'Hola.', 4000, 'Bonjour.', 4000, 'Ciao.', 4000, 'Olá.', 4000]}
                                     wrapper="anim"

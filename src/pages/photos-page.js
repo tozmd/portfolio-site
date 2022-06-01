@@ -8,10 +8,10 @@ import Gallery from "../components/gallery";
 class Photospage extends Component {
   render() {
     return (
-        <Grid container xs={12}>
+        <div>
             <Header/>
             <Gallery/>
-        </Grid>
+        </div>
     )
   }
 }
