@@ -1,8 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-import Grid from '@mui/material/Grid';
-import { makeStyles } from '@mui/styles';
 import { ImageGroup, Image } from 'react-fullscreen-image'
 
 import Thumbnail1 from "../assets/Photos/thumbnails/pic1.jpg";
@@ -42,7 +40,8 @@ const Gallery = () => {
   ]
 
     return (  
-    <div className="container">
+    <Fade up>
+          <div className="container">
       <ImageGroup>
         <ul className="images">
           {thumbnail.map(t => (images.map(i => (
@@ -52,7 +51,8 @@ const Gallery = () => {
           ))))}
         </ul>
       </ImageGroup>
-    </div>
+      </div>
+    </Fade>
     
     );
 };
