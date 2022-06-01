@@ -46,9 +46,9 @@ const Header = () => {
                         }}
                     >
                         <ul id="nav-links">
-                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">About Me</Link></li>
                             <li><Link to="/photos">My Photos</Link></li>
-                            <li><Link to="/about">Portfolio</Link></li>
+                            <li><Link to="/portfolio">Portfolio</Link></li>
                             <li><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1_5epv40CwBYB07MGEc2bmPdZyyraCmOj/view?usp=sharing">Resume</a></li>
                         </ul>
                     </Box>

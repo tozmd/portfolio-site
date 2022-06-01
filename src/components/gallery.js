@@ -30,29 +30,33 @@ import Pic11 from "../assets/Photos/pic11.jpg";
 
 const Gallery = () => {
   const images = [
-    Pic10,Pic6,Pic3,Pic4,Pic5,Pic1,
-    Pic7,Pic8,Pic9,Pic1,Pic11
-  ]
-
-  const thumbnail = [
-    Thumbnail1,Thumbnail2,Thumbnail3,Thumbnail4,Thumbnail5,Thumbnail6,
-    Thumbnail7,Thumbnail8,Thumbnail9,Thumbnail10,Thumbnail11
+    {img:Pic10, thumbnail:Thumbnail10},
+    {img:Pic6, thumbnail:Thumbnail6},
+    {img:Pic3, thumbnail:Thumbnail3},
+    {img:Pic4, thumbnail:Thumbnail4},
+    {img:Pic5, thumbnail:Thumbnail5},
+    {img:Pic7, thumbnail:Thumbnail7},
+    {img:Pic8, thumbnail:Thumbnail8},
+    {img:Pic9, thumbnail:Thumbnail9},
+    {img:Pic1, thumbnail:Thumbnail1},
+    {img:Pic11, thumbnail:Thumbnail11},
+    {img:Pic2, thumbnail:Thumbnail2},
   ]
 
     return (  
-    <Fade up>
-          <div className="container">
+      <div className="container">
+      <Fade up>
       <ImageGroup>
         <ul className="images">
-          {thumbnail.map(t => (images.map(i => (
-            <li key={t}>
-              <Image src={i}/>
+          {images.map(i => (
+            <li key={i.thumbnail}>
+              <Image src={i.img}/>
             </li>
-          ))))}
+          ))}
         </ul>
       </ImageGroup>
+      </Fade>
       </div>
-    </Fade>
     
     );
 };

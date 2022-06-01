@@ -43,7 +43,7 @@ const styles = {
 }
 
 
-class AboutMe extends Component {
+class Portfolio extends Component {
   render() {
     return (
 
@@ -62,4 +62,4 @@ class AboutMe extends Component {
   }
 }
 
-export default AboutMe;
+export default Portfolio;

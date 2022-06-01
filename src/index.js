@@ -3,6 +3,7 @@ import React from 'react'
 import "./index.css";
 import App from "./app";
 import "typeface-lato";
+import "react-fullscreen-image/lib/fullscreen.css";
 
 
 import ReactDOM from 'react-dom';

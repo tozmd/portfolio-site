@@ -5,7 +5,7 @@
 
 body {
   font-family: "Lato", Arial, Helvetica, sans-serif;
-  color: #2F323B;
+  color: #FFFFFF;
 }
 
 
@@ -23,6 +23,7 @@ anim {
 h1 {
   font-size: 220%;
   font-weight: 400;
+  color:#FFFFFF;
 }
 
 h2 {
@@ -31,7 +32,9 @@ h2 {
 }
 
 h3 {
+  font-family:'Lato';
   font-size: 120%;
+  font-weight: 300;
 }
 
 a {
@@ -94,7 +97,7 @@ h1.intro{
 h2.intro{
   font-size: 160%;
   font-weight: 400;
-  color:#858689
+  color:#FFFFFF
 }
 
 h1.card{
@@ -203,6 +206,10 @@ h1.small-card{
   color: #FFFFFF;
 }
 
+#logo:hover{
+  color:#2178db 
+}
+
 #nav-links {
   text-align: right;
   float: right;
@@ -287,7 +294,13 @@ h1.small-card{
   h2.intro{
     font-size: 100%;
     font-weight: 400;
-    color:#858689
+    color:#FFFFFF
+  }
+
+  h3.intro{
+    font-size: 80%;
+    font-weight: 400;
+    color:#FFFFFF
   }
   
   anim {
@@ -366,4 +379,15 @@ body {
   object-fit: contain;
   overflow: hidden;
   padding: 30px 20px;
+}
+
+div.fullscreen-group.fullscreen-group--expanded::before {
+  background:none;
+  backdrop-filter: blur(10px);
+}
+
+.about-banner-img {
+  width: 72%;
+  height: auto;
+  border-radius: 25px;
 }
