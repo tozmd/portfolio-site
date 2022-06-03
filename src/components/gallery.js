@@ -26,6 +26,7 @@ import Pic8 from "../assets/Photos/pic8.jpg";
 import Pic9 from "../assets/Photos/pic9.jpg";
 import Pic10 from "../assets/Photos/pic10.jpg";
 import Pic11 from "../assets/Photos/pic11.jpg";
+import { positions } from '@mui/system';
 
 
 const Gallery = () => {
