@@ -245,7 +245,7 @@ h1.small-card{
 #social-icons a {
   color: white;
   position: relative;
-  margin-right: 24px;
+  margin-right: 18px;
 }
 
 #social-icons a:hover {
@@ -297,11 +297,19 @@ h1.small-card{
   }
 
   h3.intro{
-    font-size: 80%;
+    font-size: 90%;
     font-weight: 400;
     color:#FFFFFF
   }
   
+  h1.card{
+    font-size: 140%;
+  }
+
+  h2.card{
+    font-size: 100%;
+  }
+
   anim {
     font-size: 400%;
     font-weight: 400;
@@ -312,6 +320,10 @@ h1.small-card{
     width: 100%;
     height: auto;
     border-radius: 25px;
+  }
+
+  .year-tag {
+    visibility: hidden;
   }
   
 }
@@ -385,24 +397,28 @@ div.fullscreen-group.fullscreen-group--expanded::before {
   backdrop-filter: blur(10px);
 }
 
-div.fullscreen-group {
-  position: absolute;
-}
-
-button.fullscreen-exit-btn {
-  border: none;
-  background: white;
-  position: fixed;
-  top: 20px;
-  right: 0;
-  padding: 20px;
-  -webkit-appearance: none;
-  cursor: pointer;
-  z-index: 10;
-}
-
 .about-banner-img {
   width: 72%;
   height: auto;
   border-radius: 25px;
+}
+
+.vertical-img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  cursor: 'pointer';
+  object-fit: 'cover';
+  height: 'auto';
+}
+
+.gallery-padding{
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-left: 2%
+}
+
+.resume-menu-item{
+  color: grey;
 }

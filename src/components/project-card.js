@@ -49,18 +49,17 @@ const ProjectCard = () => {
     ];
     
     return (  
-    <div style={{ padding: "60px 100px" }}>
-    <Fade up>
-      <Grid container spacing={10} direction="row"
-        justifyContent="flex-start" alignItems="baseline">
+    <Grid container justifyContent="space-evenly" alignItems="center">
+      <Grid container spacing={12} xs={12} direction="column"
+        justifyContent="space-evenly" alignItems="center">
         {projectData.map((project) => (
-        <Grid item xs={4}>
-            <Card elevation={0} style={{borderRadius: 25}}>
+        <Grid item xs={6}>
+            <Card elevation={0} style={{borderRadius: 25, minWidth: '33vw'}}>
             <CardActionArea href={project.link}>
                 <Grid item xs={12}>
                     
                     <Grid item>
-                        <Button variant="contained" disabled style={{height: 50, width: 110, backgroundColor:"#ffffff", borderRadius: 30, 
+                        <Button class="year-tag" variant="contained" disabled style={{height: 50, width: 110, backgroundColor:"#ffffff", borderRadius: 30, 
                             fontFamily: "Lato", fontWeight: 600, color:"#000000", margin: "1.2rem 0 0 1rem", position:"absolute"}}>
                                 <bold>{project.year}</bold>
                         </Button>
@@ -69,7 +68,7 @@ const ProjectCard = () => {
                     <CardMedia
                         component="img"
                         image={project.image}
-                        style={{borderRadius: 15}}/>
+                        style={{borderRadius: 15, objectFit: 'cover', minHeight: '25vh'}}/>
                 </Grid>
 
                 <CardContent elevation={0} align="left" style={{backgroundColor: "inherit"}}>
@@ -89,8 +88,8 @@ const ProjectCard = () => {
             ))}
         <Grid item xs={2}> </Grid>
         </Grid>
-        </Fade>
-        </div>
+    </Grid>
+    
     );
 }
 export default ProjectCard;

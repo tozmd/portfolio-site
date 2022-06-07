@@ -12,7 +12,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 
 
-const pages = ['Portfolio', 'About', 'Resume'];
+const pages = [{name: 'About Me', link: '/about'}, {name: 'My Photos', link: '/photos'}, {name: 'Portfolio', link: '/portfolio'}];
+
 
 const Header = () => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -85,10 +86,15 @@ const Header = () => {
                             }}
                             >
                             {pages.map((page) => (
-                                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                <Typography textAlign="center">{page}</Typography>
+                                <MenuItem key={page.name} onClick={handleCloseNavMenu} component={Link} to={page.link}>
+                                    <Typography textAlign="center">{page.name}</Typography>
                                 </MenuItem>
                             ))}
+                                <MenuItem key='Resume' onClick={handleCloseNavMenu} target="_blank"
+                                 href="https://drive.google.com/file/d/1_5epv40CwBYB07MGEc2bmPdZyyraCmOj/view?usp=sharing" as="a" class="resume-menu-item" color="inherit"
+                                 >
+                                    <Typography textAlign="center">{'Resume'}</Typography>
+                                </MenuItem>
                         </Menu>
                     </Box>
                 </Toolbar>

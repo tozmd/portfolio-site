@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import Grid from "@mui/material/Grid";
 import Header from "../components/navbar";
-import Gallery from "../components/gallery";
+import Gallery from "../components/photo-gallery";
 
    
 
