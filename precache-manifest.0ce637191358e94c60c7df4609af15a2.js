@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9b6aa50d22a42290234b",
+    "revision": "b04c268597ca0b333f71",
     "url": "/static/css/main.ddf672c0.chunk.css"
   },
   {
-    "revision": "9b6aa50d22a42290234b",
-    "url": "/static/js/main.9b6aa50d.chunk.js"
+    "revision": "b04c268597ca0b333f71",
+    "url": "/static/js/main.b04c2685.chunk.js"
   },
   {
     "revision": "c595ceda362e211e7a62",
@@ -120,16 +120,12 @@ self.__precacheManifest = [
     "url": "/static/media/lato-latin-100.9ca14b87.woff2"
   },
   {
-    "revision": "98d8cf792834c0bef59c2be99dc3533d",
-    "url": "/static/media/lato-latin-300.98d8cf79.woff2"
+    "revision": "de3428c265cecf1856805f21f274bb82",
+    "url": "/static/media/lato-latin-100italic.de3428c2.woff2"
   },
   {
     "revision": "4dfdd1c035c641accc4f3fedb7b73055",
     "url": "/static/media/lato-latin-100.4dfdd1c0.woff"
-  },
-  {
-    "revision": "83a45512c894889710e9966b9edddc6d",
-    "url": "/static/media/lato-latin-100italic.83a45512.woff"
   },
   {
     "revision": "a21767e20d27a9c06007c981a8e5f827",
@@ -140,24 +136,20 @@ self.__precacheManifest = [
     "url": "/static/media/lato-latin-300.656963c4.woff"
   },
   {
-    "revision": "de3428c265cecf1856805f21f274bb82",
-    "url": "/static/media/lato-latin-100italic.de3428c2.woff2"
-  },
-  {
-    "revision": "b4d2c4c39853ee244272c04999b230ba",
-    "url": "/static/media/lato-latin-400.b4d2c4c3.woff2"
+    "revision": "98d8cf792834c0bef59c2be99dc3533d",
+    "url": "/static/media/lato-latin-300.98d8cf79.woff2"
   },
   {
     "revision": "8e90b967ea69fc68b130d36cc34d41c0",
     "url": "/static/media/lato-latin-300italic.8e90b967.woff"
   },
   {
-    "revision": "b8ee546acd6cc0c49f42ad3d48ef244f",
-    "url": "/static/media/lato-latin-400.b8ee546a.woff"
+    "revision": "b4d2c4c39853ee244272c04999b230ba",
+    "url": "/static/media/lato-latin-400.b4d2c4c3.woff2"
   },
   {
-    "revision": "1efbd38aa76ddae2580fedf378276333",
-    "url": "/static/media/lato-latin-700.1efbd38a.woff2"
+    "revision": "b8ee546acd6cc0c49f42ad3d48ef244f",
+    "url": "/static/media/lato-latin-400.b8ee546a.woff"
   },
   {
     "revision": "117e995c97eab30fb92843616018d1f1",
@@ -168,6 +160,10 @@ self.__precacheManifest = [
     "url": "/static/media/lato-latin-400italic.e652470b.woff"
   },
   {
+    "revision": "9e9a574493d4cd2fa62380f376461941",
+    "url": "/static/media/lato-latin-700italic.9e9a5744.woff"
+  },
+  {
     "revision": "874b8e7bc7e8d1507b50f56bc6c9b536",
     "url": "/static/media/lato-latin-700.874b8e7b.woff"
   },
@@ -176,20 +172,24 @@ self.__precacheManifest = [
     "url": "/static/media/lato-latin-700italic.5ce0990b.woff2"
   },
   {
+    "revision": "1efbd38aa76ddae2580fedf378276333",
+    "url": "/static/media/lato-latin-700.1efbd38a.woff2"
+  },
+  {
     "revision": "947e87c53b5765bfc8982613ccd789e9",
     "url": "/static/media/lato-latin-900.947e87c5.woff2"
   },
   {
-    "revision": "9e9a574493d4cd2fa62380f376461941",
-    "url": "/static/media/lato-latin-700italic.9e9a5744.woff"
+    "revision": "bd86aaa72d23c91de85390a93aa6bef2",
+    "url": "/static/media/lato-latin-900italic.bd86aaa7.woff2"
   },
   {
     "revision": "73d7130e1dc196d25bb35faf2afbbb43",
     "url": "/static/media/lato-latin-900italic.73d7130e.woff"
   },
   {
-    "revision": "bd86aaa72d23c91de85390a93aa6bef2",
-    "url": "/static/media/lato-latin-900italic.bd86aaa7.woff2"
+    "revision": "83a45512c894889710e9966b9edddc6d",
+    "url": "/static/media/lato-latin-100italic.83a45512.woff"
   },
   {
     "revision": "a82ff6ac9208656f9a21a65dfacbcae3",
@@ -224,7 +224,7 @@ self.__precacheManifest = [
     "url": "/static/media/github.1bb02710.svg"
   },
   {
-    "revision": "2edf68c70b2178c4d7863e03fee02aa5",
+    "revision": "532021534c4e550fb45f0051a142c7a8",
     "url": "/index.html"
   }
 ];
