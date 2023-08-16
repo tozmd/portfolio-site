@@ -28,26 +28,33 @@ const Intro = () => {
             <Container maxWidth="xl">
                 <Grid item container xs={12} alignItems="center">
                     <Grid item xs={7}>
-
                     <Fade bottom>
                         <div>
-                            <TypeAnimation cursor={true} sequence={[
-                                    'Hello.', 4000, 'Xin chào.', 4000 ,'Hola.', 4000, 'Bonjour.', 4000, 'Ciao.', 4000, 'Olá.', 4000]}
-                                    wrapper="anim"
-                                    repeat={Infinity}/>
+                            <large>Brian Vu</large>
                         </div>
                     </Fade>
-
                     <Fade bottom>
                         <div>
-                            <h1 class="intro">My name is <strong>Brian Vu</strong> and I am an aspiring <strong>Android Developer</strong> with a passion for design.</h1>
+                            <h1 class="intro">New grad <strong>Android Developer</strong> with a passion for design.</h1>
                         </div>                            
                     </Fade>
-                        
+                    <Fade bottom>
+                        <div>
+                            <TypeAnimation 
+                                cursor={true}
+                                sequence={[
+                                    'Android.', 3000, 'Jetpack Compose.', 3000, 'Android Studio.', 3000,
+                                    'Git.', 3000, 'Hilt DI.', 3000, 'Firebase.', 3000, 
+                                    'Kotlin.', 3000, 'Jira.', 3000, 'Java.', 3000 
+                                ]}
+                                wrapper="anim"
+                                repeat={Infinity} />
+                        </div>
+                    </Fade>
                     <Grid container alignItems="center">
                         <Fade bottom>
                         <div>
-                        <h2 class="intro"> Find me at</h2>
+                            <h2 class="intro"> Find me at</h2>
                         </div>
                         </Fade>
                         <Grid container item xs={12} id="social-icons">

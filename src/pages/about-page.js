@@ -20,15 +20,15 @@ const About = () => (
                 <Grid item container justifyContent="center">
                     <img class="about-banner-img" src={Banner} alt="Banner" />
                     <Grid item xs={8}>
-                        <h3 class="intro">Hello, everyone! My name is Brian Vu and I am currently enrolled at CSULB as a Computer Science major
-                        with a focus on Mobile Development, more specifically Android Development. As of now, I am looking for an opporunity to 
-                        expand my skillset at an internship or at an entry-level position, so any inquiries are greatly appreciated! 😊</h3>
-                        <h3 class="intro">In my spare time, I enjoy hiking and enjoying nature, photography, or working out at the gym. 💪</h3>
+                        <h3 class="intro">Hello, everyone! My name is Brian Vu and I am a new Computer Science graduate from CSULB with an interest in Mobile Development. 
+                        I've always had a keen interest towards tech, which inspired me to pursue software development as a career. 
+                        As a result, I am looking for an opporunity to expand my skillset at an entry-level position. Any inquiries are greatly appreciated! 😊</h3>
+                        <h3 class="intro">In my spare time, I enjoy bouldering, photography, or a nice bike ride around my area. 💪</h3>
                         <div style={{ height: 20 }} />
-                        <h3 class="intro">💻Programming Languages—Java, Kotlin, Python, Javascript, HTML, CSS, Dart</h3>
+                        <h3 class="intro">💻Programming Languages—Kotlin, Java, Python, Javascript, HTML, CSS, Dart</h3>
                         <h3 class="intro">📚Libraries and Frameworks—Jetpack Compose, Flutter, Native, ReactJS, LibGDX</h3>
                         <h3 class="intro">🛠️Tools—Android Studio, IntellJ IDEA, GitHub, Visual Studio, Figma, Adobe Photoshop, Adobe Lightroom</h3>
-                        <h3 class="intro">🔒Database Management—MySQL, Firebase, DigitalOcean IAAS</h3>
+                        <h3 class="intro">🔒Database Management—Firebase, MySQL, DigitalOcean IAAS</h3>
 
     
                         <Grid container alignItems="center">

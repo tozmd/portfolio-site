@@ -1,19 +1,17 @@
 
 import React from 'react'
 import "./index.css";
-import App from "./app";
+import App from './App'
 import "typeface-lato";
-import "react-fullscreen-image/lib/fullscreen.css";
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom';
 
-
-import ReactDOM from 'react-dom';
-
-ReactDOM.render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App /> 
+    </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
 );
 
 require('typeface-lato')
-

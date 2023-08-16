@@ -1,33 +1,26 @@
 import React, {Component} from 'react'
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import Home from "./pages/home-page";
 import About from "./pages/about-page";
 import Portfolio from "./pages/portfolio";
 import Photos from "./pages/photos-page";
 import NotFound from "./pages/not-found";
-
 import ScrollToTop from './components/scrollToTop';
 
-
-class App extends Component {
-  render() {
+function App() {
     return (
-    <div>
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <div>
         <ScrollToTop/>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/photos" component={Photos} />
-          <Route component={NotFound}/>
-        </Switch>
-      </HashRouter>
-    </div>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/portfolio" element={<Portfolio/>} />
+            <Route path="/photos" element={<Photos/>} />
+            <Route path="*" element={<NotFound/>}/>
+          </Routes>
+      </div>
     )
-  }
 }
-
 
 export default App

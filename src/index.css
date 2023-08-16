@@ -15,7 +15,8 @@ p {
 }
 
 anim {
-  font-size: 600%;
+  font-size: 300%;
+  line-height: 25%;
   font-weight: 400;
   color:#2178db 
 }
@@ -41,6 +42,13 @@ a {
   font-weight: 700;
   text-decoration: none;
   color: #8E9AAF;
+}
+
+large {
+  font-size: 400%;
+  line-height: 50%;
+  font-weight: 500;
+  color: #2178db;
 }
 
 strong {
